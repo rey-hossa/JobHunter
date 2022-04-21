@@ -1,0 +1,53 @@
+
+.content{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.job-offers{
+    width: 75%;
+    display: flex;
+    flex-direction: column;
+}
+
+.filters{
+    width: 15%;
+    
+}
+
+#level-select{
+    width: 120px;
+}
+
+.pages{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    align-self: center;
+}
+
+@media only screen and (max-width: 1000px) {
+    .content{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .job-offers{
+        width: 100%;
+    }
+
+    .filters{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 30px;
+        
+    }
+
+    .filters h6{
+        margin-right: 2%;
+        margin-left: 10%;
+    }
+}
+

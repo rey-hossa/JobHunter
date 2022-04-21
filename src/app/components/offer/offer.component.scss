@@ -1,0 +1,26 @@
+
+.offer{
+    cursor: pointer;
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+    .card-body{width: 100%;}
+
+    h5{
+        margin-bottom: 0;
+    }
+
+    .offer_levels{
+        font-style: italic;
+        color: rgb(150, 150, 150);
+        margin-bottom: 5px;
+    }
+
+    p{
+    
+    }
+}
+
+.offer:hover{
+    background-color: rgb(250, 250, 250);
+}

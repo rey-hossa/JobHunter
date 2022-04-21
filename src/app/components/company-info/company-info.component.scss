@@ -1,0 +1,25 @@
+
+.company-info{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+
+    .no-margin-bottom{
+        margin-bottom: 0;
+    }
+    
+    .label{
+        color: gray;
+        margin-bottom: 0;
+    }
+
+    .company-back-button{
+        margin-top: 50px;
+        margin-bottom: 30px;
+
+        width: 200px;
+    }
+
+}

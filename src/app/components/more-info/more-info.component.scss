@@ -1,0 +1,65 @@
+
+.more-info{
+
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    .info_header{
+        margin-bottom: 30px;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+
+        h4, h3, p{
+            margin-bottom: 0;
+        }
+
+        .info_header_title{
+            p{
+                font-style: italic;
+                color: gray;
+                font-size: 20px;
+            }
+        }
+
+        .info_header_company{
+            display: flex;
+            align-items: center;
+            margin-left: 10px;
+    
+            button{
+                background-color: white;
+                border: none;
+                margin-left: 15px;
+    
+                i{
+                    color:rgb(190, 190, 190);
+                    font-size: 24px;
+                }
+    
+                i:hover{
+                    color: black;
+                }
+            }
+        }
+    }
+
+    .description{
+        background-color: rgb(250, 250, 250);
+        border-radius: 5px;
+        padding: 2%;
+    }
+
+    .back-button{
+        margin-top: 30px;
+        margin-bottom: 30px;
+        width: 200px;
+    }
+
+    
+}
+
+
+

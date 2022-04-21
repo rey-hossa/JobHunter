@@ -1,0 +1,12 @@
+
+<div *ngIf="offer" class="card offer" (click)="moreInfo()" [routerLink]="['/more-info']">
+    <div class="card-body">
+      <h5 class="card-title">{{offer.name ? offer.name : "Unknown"}}</h5>
+      <p class="card-text offer_levels">{{offer.levels[0] ? offer.levels[0].name : "Unknown"}}</p>
+      <p class="card-text"> <b>{{offer.company.name ? offer.company.name : "Unknown"}}</b> - {{offer.locations[0] ? offer.locations[0].name : "Unknown"}}</p>
+    </div>
+  </div>
+
+  
+
+  

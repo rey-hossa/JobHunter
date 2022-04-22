@@ -2,7 +2,25 @@
 
 ![Alt text](src/assets/image.PNG "image")
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.3.0.
+This project is a job search site, so with this site you can you can search for job offers.
+
+## Getting Started
+
+To Starting using this Application, go to https://jobhunter4-4afbf.web.app/ on your favourite browser, or if you want to try it locally download the project and run "ng serve -o".
+
+## Tools Used
+
+Node npm
+
+Typescript
+
+Angular
+
+Firebase
+
+## Usage
+
+The usage is very simple, you can see the offers, filter them by level and by clicking on it you can see more information about the offer and the company.
 
 ## Development server
 
@@ -27,3 +45,8 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+
+## Contact
+Email: rey.hossa.rh@gmail.com
+
+Project link: https://github.com/rey-hossa/JobHunter.git
